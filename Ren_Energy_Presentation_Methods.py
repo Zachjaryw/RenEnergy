@@ -296,9 +296,11 @@ class Generate:
   '''
   This method utilizes other methods in order to generate a presentation with
   the designated templates for the given suppliers and factories
+  @param factory_data (df) - dataframe of factory data
+  @param supplier_data (df) - dataframe of supplier data
   @return prs (presentaiton) - this is the final formatted presentation
   '''
-  def Generate_Presentation():
+  def Generate_Presentation(factory_data,supplier_data):
     prs = Presentation()
     prs.slide_width = I(11)
     prs.slide_height = I(8.5)
