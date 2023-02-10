@@ -1,0 +1,16 @@
+Ren Energy Presentation Maker
+
+you need to have the following things downloaded on your device to run:
+Python3
+pandas
+python-pptx
+numpy
+
+
+To run, open terminal and paste the three lines below. (you can paste all lines together)
+
+cd Downloads
+
+cd Ren_Energy_Presentation
+
+python3 Ren_Energy_Presentation.py
