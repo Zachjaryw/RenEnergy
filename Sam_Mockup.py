@@ -15,9 +15,13 @@ elif select == 'Primark':
       
     with st.expander('Goals',expanded=False):
       st.write('Products')
-      st.write('-Create clothes which last: Primark hopes to increase their clothes durability by 2025\n-Clothes that can be recycled: st’s clothes will be recyclable by 2027 \n-Clothes created from recycled fibers: Clothes will be made from either recycled or more sustainably sourced materials by 2030')
+      st.write('-Create clothes which last: Primark hopes to increase their clothes durability by 2025')
+      st.write('-Clothes that can be recycled: st’s clothes will be recyclable by 2027 ')
+      st.write('-Clothes created from recycled fibers: Clothes will be made from either recycled or more sustainably sourced materials by 2030')
       st.write('Planet')
-      st.write('-Halve carbon footprint: Reduce carbon emissions by 50% across value chain by 2030 \n-Eliminate non-clothing waste: In addition to eliminating non-clothing waste, st is dedicated to eliminate single use plastic by 2027\n-Restore biodiversity: Incorporate more regenerative agriculture practices by 2030')
+      st.write('-Halve carbon footprint: Reduce carbon emissions by 50% across value chain by 2030 ')
+      st.write('-Eliminate non-clothing waste: In addition to eliminating non-clothing waste, Primark is dedicated to eliminate single use plastic by 2027')
+      st.write('-Restore biodiversity: Incorporate more regenerative agriculture practices by 2030')
         
     with st.expander('Carbon Footprint',expanded=False):
       st.write('Primark’s total 2021/22 emissions sat slightly above 6.5 million tC02e. Of their total emissions, Scope 3 was vastly responsible for about 6.45 million tC02e; meanwhile Scope 1 and 2 produced 123,772 tC02e. While Scope 3 did increase 3.3% compared to the baseline year of 2018/19, Scope 1 and 2 decreased 22.9% from the 2018/19 baseline year. ')
