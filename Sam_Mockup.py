@@ -4,7 +4,7 @@ import numpy as np
 st.title('Brand Card Mockup')
 
 
-select = st.selectbox('Select a Brand',['**Select a Brand**','Lululemon','Primark'])
+select = st.selectbox('Select a Brand',['**Select a Brand**','Lululemon','Primark','Brand Comparison'])
 
 if select == '**Select a Brand**':
     st.warning('Select a Brand')
@@ -75,3 +75,14 @@ elif select == 'Lululemon':
       
     with st.expander('Other Actions Taken',expanded=False):
       st.write('lululemon has placed an emphasis on using materials that hold lower impacts on the environment. The implementation of these low impact materials include innovating and converting materials into being recycled, renewable, responsibly sourced, and lower-impact manufacturing process. ')
+elif select == 'Brand Comparison':
+    with st.form('Compare Brands'):
+        s2 = st.multiselect('Select Multiple Brands',['Lululemon','Primark'])
+        comparison = st.mulitselect('Select what factors you want to compare',['Energy Comsumption','Carbon emissions','Commitments'])
+        complete = st.form_submit_button('Enter')
+    
+    if complete == True:
+        pass
+    
+    
+    
