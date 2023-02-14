@@ -43,3 +43,12 @@ with lulu.expander('Goals',expanded=False):
     lulu.write('')
   with lulu.expander('Sustainable Products',expanded=False)
     lulu.write('')
+
+with lulu.expander('Carbon Footprint',expanded=False):
+  lulu.write('')
+
+with lulu.expander('Climate Activist Groups',expanded=False):
+  lulu.write('')
+  
+with lulu.expander('Other Actions Taken',expanded=False):
+  lulu.write('')
