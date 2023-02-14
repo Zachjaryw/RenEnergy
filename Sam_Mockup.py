@@ -7,6 +7,7 @@ dropdowns = {'Drop1':'Text',
               'Drop2':'Text',
                'Drop3':'Text'}
                
+keys = dropdowns.keys().tolist()
 for dropdown in range(len(dropdowns.keys())):
-  with st.container(dropdowns.keys()[dropdown]):
-    st.write(dropdowns[dropdowns.keys()[dropdown]])
+  with st.container(keys[dropdown]):
+    st.write(dropdowns[keys[dropdown]])
