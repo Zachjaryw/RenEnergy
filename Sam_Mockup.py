@@ -4,9 +4,12 @@ import numpy as np
 st.title('Brand Card Mockup')
 
 
-select = st.selectbox('Select a Brand',['Lululemon','Primark'])
+select = st.selectbox('Select a Brand',['**Select a Brand**','Lululemon','Primark'])
 
-if select == 'Primark':
+if select == '**Select a Brand**,':
+    st.warning('Select a Brand')
+
+elif select == 'Primark':
     with st.expander("Introduction",expanded=False):
       st.write('\tPrimark holds the view that all must take responsibility in protecting Earth. To join the fight against Climate Change, st has formed long-term initiatives to tackle their negative impacts on the environment. With regards to long-term initiatives, st looks to encompass a wide range of strategies that includes environmental initiatives, water stewardship, and sustainable chemicals management.')
       
