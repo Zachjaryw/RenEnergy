@@ -6,7 +6,7 @@ st.title('Brand Card Mockup')
 
 select = st.selectbox('Select a Brand',['**Select a Brand**','Lululemon','Primark'])
 
-if select == '**Select a Brand**,':
+if select == '**Select a Brand**':
     st.warning('Select a Brand')
 
 elif select == 'Primark':
