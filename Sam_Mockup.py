@@ -9,4 +9,4 @@ dropdowns = {'Drop1':'Text',
                
 for dropdown in range(len(dropdowns.keys())):
   with st.container(dropdowns.keys()[dropdown]):
-    st.write(dropdowns[dropdowns[dropdowns.keys()[dropdown]])
+    st.write(dropdowns[dropdowns.keys()[dropdown]])
